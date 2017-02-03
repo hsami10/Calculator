@@ -15,7 +15,7 @@ DONE:
 */
 
 $(document).ready(function(){
-    // $("#calculator").addClass("animated zoomInDown");
+    $("#calculator").addClass("animated zoomInDown");
     // $("#calculator").addClass("animated fadeInDown");
 
     //tests the length of the expression and adjusts it to fit the screen
