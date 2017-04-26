@@ -1,7 +1,6 @@
 $(document).ready(function(){
     $("#calculator").addClass("animated zoomInDown");
-    // $("#calculator").addClass("animated fadeInDown");
-
+    
     //tests the length of the expression and adjusts it to fit the screen
     var testNumLength = function(exp) {
         /*Fix the prob that &radic; counts as 7 chars when counting to display*/
