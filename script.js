@@ -1,19 +1,3 @@
-/*
-TO-DO LIST:
-
-DONE:
-    - FIX RADICAL SYMBOL. IT'S TOO BIG.
-    - fix deleting and readding a number problem, when dealing with sqrt and power. Lines 63-67.
-    - when you press delete on &radic; symbol, it only takes away the ';'. Fix in both display and eval.
-    - testnumlength treats radic sign as 7 letters. fix that.
-    - number rounding is weird. 2.44948974  rounds to 2.4. FIX IT!!
-    - FIX SQUARE ROOT. IT DOESNT WORK IF ITS THE LAST OPERATION.
-    - FIX POWER OPERATION. SAME PROBLEM AS ABOVE
-    - FIX SQUARE ROOT. LARGE NUMBERS SHOW ERROR PROBLEM
-    - DISABLE TEXT HIGHLIGHTING ON CALCULATOR
-    - A LOT OF OTHER PROBLEMS I FORGOT TO TYPE HERE
-*/
-
 $(document).ready(function(){
     $("#calculator").addClass("animated zoomInDown");
     // $("#calculator").addClass("animated fadeInDown");
@@ -34,8 +18,6 @@ $(document).ready(function(){
             }
         }
     }
-
-    console.log();
 
     //get everything after decimal point in a string
     //if no decimal, then it will return the original string
